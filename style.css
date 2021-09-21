@@ -1,0 +1,197 @@
+body {
+    padding-top: 600px;
+    margin: 0;
+}
+
+#moriarty {
+    width: 200px;
+    border-radius: 10%;
+    border: 2px solid #B71C1C;
+    margin-bottom: 20px;
+    margin-top: 70px;
+
+}
+
+#name {
+    background: linear-gradient(#B71C1C 0%, #C51162 100%);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 9;
+    height: 700px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    text-shadow: 2px 2px #EF9A9A;
+    font-family: 'IM Fell DW Pica SC', serif;
+
+}
+
+h2 {
+    font-size: 60px;
+    text-shadow: 2px 2px #EFEBE9;
+    font-family: 'Monsieur La Doulaise', cursive;
+}
+
+.line {
+    height: 3px;
+    background-color: black
+}
+
+#bio {
+    font-size: 25px;
+    background: linear-gradient(#F1F8E9 0%, #FFCDD2 100%);
+    font-family: 'Alegreya', serif;
+    z-index: 8;
+    margin-top: 100px;
+}
+
+h3,
+h4 {
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 2px 2px #B2DFDB;
+    font-family: 'Cinzel Decorative', cursive;
+    color: black;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: right;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 22px;
+    margin-bottom: 10px;
+
+}
+
+.links:hover {
+    background: linear-gradient(#faf5f5 0%, #ff9ea1 100%);
+    font-size: 27px;
+    border-radius: 5%;
+    box-shadow: 4px 4px black;
+
+}
+
+#synopsis {
+    text-align: center;
+    background: linear-gradient(white 0%, #ff9ea1 100%);
+}
+
+a {
+    text-decoration: none;
+    text-align: justify;
+    color: black;
+}
+
+.division {
+    text-align: center;
+
+}
+
+#wiki {
+    color: darkcyan;
+}
+
+#wallpapers {
+    text-align: center;
+    background: linear-gradient(white 0%, #ff9ea1 100%);
+}
+
+.pic {
+    height: 500px;
+    width: 500px;
+}
+
+#trivia {
+    background: linear-gradient(white 0%, #ff9ea1 100%);
+}
+
+#t {
+    font-size: 25px;
+    font-family: 'Alegreya', serif;
+}
+
+#tr {
+    text-align: center;
+}
+
+#vids {
+    height: 200px;
+    text-align: center;
+    background: linear-gradient(white 0%, red 100%);
+}
+
+#mp {
+    font-size: 40px;
+    color: ghostwhite;
+    text-shadow: 2px 2px black;
+}
+
+#mp:hover {
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.head {
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 2px 2px #B2DFDB;
+    font-family: 'Cinzel Decorative', cursive;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#wiki:hover {
+    font-size: 35px;
+    text-decoration: underline;
+}
+#bo{
+    margin:0;
+    padding:0;
+}
+
+#will {
+    text-align: center;
+}
+
+#origin {
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    background: linear-gradient(white 0%, purple 100%);
+}
+
+#origins {
+    text-align: center;
+     background: linear-gradient(white 0%, #ff9ea1 100%);
+    height: 600px;
+}
+
+#origins img {
+    height: 450px;
+    width: 450px;
+    border: 2px solid #B71C1C;
+transition: transform .2;
+    
+}
+#origins img:hover {
+    transform: scale(0.9)
+}
